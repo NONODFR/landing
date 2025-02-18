@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LuxDrive</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- Adjusted link to the correct CSS path -->
 </head>
 <body>
 
     <!-- Banner -->
-    <div class="banner" style="background-image: url('images/background.jpg');">
-        <h1 class="title" style="color: white; font-size: 4em;">LuxDrive</h1>
-        <p class="slogan" style="color: white;">Explorez l'univers du luxe automobile</p>
+    <div class="banner">
+        <h1 class="title">LuxDrive</h1>
+        <p class="slogan">Explorez l'univers du luxe automobile</p>
         <a href="#contact-section" class="btn-orange">Commencez votre expérience</a>
     </div>
 
@@ -24,7 +24,7 @@
             <img src="images/catalogue.jpg" alt="Catalogue Interactif" class="avatar">
             <div>
                 <h3>Catalogue Interactif de Voitures de Luxe</h3>
-                <p>Explorez un vaste choix de voitures prestigieuses avec des fiches de présentation détaillées et des médias haute définition.</p>
+                <p>Découvrez des modèles prestigieux avec fiches détaillées et médias en HD.</p>
             </div>
         </div>
 
@@ -33,7 +33,7 @@
             <img src="images/casqueVR.jpg" alt="Réalité Augmentée" class="avatar">
             <div>
                 <h3>Essai Virtuel en Réalité Augmentée</h3>
-                <p>Projetez une voiture en taille réelle dans votre espace pour une expérience immersive et personnalisée.</p>
+                <p>Projetez une voiture en taille réelle dans votre espace pour une immersion totale.</p>
             </div>
         </div>
 
@@ -42,7 +42,7 @@
             <img src="images/assistance.jpg" alt="Assistant Virtuel" class="avatar">
             <div>
                 <h3>Assistant Virtuel Personnalisé</h3>
-                <p>Bénéficiez de l’assistance d’un IA qui vous guide dans le choix du véhicule idéal et vous conseille sur les financements.</p>
+                <p>Recevez des conseils d'un IA sur le choix du véhicule idéal.</p>
             </div>
         </div>
 
@@ -50,8 +50,8 @@
         <div class="card">
             <img src="images/concessionnaire.jpg" alt="Essais et Rendez-vous" class="avatar">
             <div>
-                <h3>Gestion des Essais et Rendez-vous</h3>
-                <p>Planifiez des essais avec les concessions locales, ou recevez votre voiture pour un essai à domicile.</p>
+                <h3>Planifiez des essais</h3>
+                <p>Réservez un essai à domicile ou chez un concessionnaire.</p>
             </div>
         </div>
 
@@ -59,8 +59,8 @@
         <div class="card">
             <img src="images/personnalisation.jpg" alt="Personnalisation" class="avatar">
             <div>
-                <h3>Personnalisation et Commande en Ligne</h3>
-                <p>Choisissez vos options préférées pour la couleur, la finition, et bien plus. Commande en ligne et suivi inclus.</p>
+                <h3>Personnalisation et Commande</h3>
+                <p>Personnalisez votre voiture et commandez-la en ligne avec suivi.</p>
             </div>
         </div>
     </div>
@@ -68,10 +68,14 @@
     <!-- Contact Section -->
     <div id="contact-section" class="container">
         <h2 class="section-title">Nous Contacter</h2>
-        <!-- Login Image -->
-        <img src="images/login.png" alt="Login Interface" style="width: 150px; margin-top: 10px; display: block; margin-left: auto; margin-right: auto;">
         
-        <div data-tf-widget="jq0WcqQ9" data-tf-opacity="100" data-tf-iframe-props="title=Sign Up Form" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:500px;"></div>
+        <!-- Login Image -->
+        <img src="images/login.png" alt="Login Interface" class="login-image">
+        
+        <!-- Form (Typeform Embed) -->
+        <div data-tf-widget="jq0WcqQ9" data-tf-opacity="100" data-tf-iframe-props="title=Sign Up Form" 
+            data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:500px;">
+        </div>
         <script src="//embed.typeform.com/next/embed.js"></script>
     </div>
 
